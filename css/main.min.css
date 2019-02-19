@@ -644,4 +644,7 @@ button.btn-jac-link {
 button.btn, label.btn {
   border-radius: 0; }
 
+input[type="checkbox"].input-jac-check-radio {
+  background: red; }
+
 /*# sourceMappingURL=main.min.css.map */
