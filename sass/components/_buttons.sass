@@ -1,4 +1,6 @@
 //buttons
+
+//botão laranja padrão
 button.btn-jac-default
     background-color: $color-orange
     border-color: $color-orange
@@ -6,5 +8,43 @@ button.btn-jac-default
         background-color: $color-orange-light
         border-color: $color-orange-light
 
-button.btn
+//botão laranja comparação
+button.btn-jac-compare
+    background-color: $color-orange
+    border-color: $color-orange
+    &:hover
+        background-color: $color-orange-light
+        border-color: $color-orange-light
+
+    
+//botão verde atualizar preço
+button.btn-jac-price-update
+    background-color: $color-green-dark
+    border-color: $color-green-dark
+    &:hover
+        background-color: $color-green-light
+        border-color: $color-green-light
+
+//botão ver grafico de preço
+.btn-jac-price-chart-alert
+    color: $color-gray-dark
+    &:hover
+        color: $color-gray-light
+
+
+//botão link padrão
+button.btn-jac-link
+    color: $color-orange
+    &:hover
+        color: $color-orange-light
+
+
+.btn-jac-disabled:disabled,
+.btn-jac-disabled.disabled
+    background-color: $color-orange-light !important
+    border-color: $color-orange-light !important
+        
+
+//botões gerais
+button.btn, label.btn
     border-radius: 0

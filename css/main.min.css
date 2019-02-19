@@ -612,7 +612,36 @@ button.btn-jac-default {
     background-color: #ffd4c5;
     border-color: #ffd4c5; }
 
-button.btn {
+button.btn-jac-compare {
+  background-color: #f05a23;
+  border-color: #f05a23; }
+  button.btn-jac-compare:hover {
+    background-color: #ffd4c5;
+    border-color: #ffd4c5; }
+
+button.btn-jac-price-update {
+  background-color: #2a573c;
+  border-color: #2a573c; }
+  button.btn-jac-price-update:hover {
+    background-color: #6ec28f;
+    border-color: #6ec28f; }
+
+.btn-jac-price-chart-alert {
+  color: #4f4f4f; }
+  .btn-jac-price-chart-alert:hover {
+    color: #c9c9c9; }
+
+button.btn-jac-link {
+  color: #f05a23; }
+  button.btn-jac-link:hover {
+    color: #ffd4c5; }
+
+.btn-jac-disabled:disabled,
+.btn-jac-disabled.disabled {
+  background-color: #ffd4c5 !important;
+  border-color: #ffd4c5 !important; }
+
+button.btn, label.btn {
   border-radius: 0; }
 
 /*# sourceMappingURL=main.min.css.map */
