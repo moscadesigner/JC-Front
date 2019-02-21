@@ -775,7 +775,7 @@ button.btn-jac-default {
   background-color: #f05a23;
   border-color: #f05a23;
   color: #ffffff; }
-  button.btn-jac-default:hover {
+  button.btn-jac-default:hover, button.btn-jac-default:focus, button.btn-jac-default:active {
     color: #9a2a03;
     background-color: #ffd4c5;
     border-color: #ffd4c5; }
@@ -784,7 +784,7 @@ button.btn-jac-compare {
   background-color: #f05a23;
   border-color: #f05a23;
   color: #ffffff; }
-  button.btn-jac-compare:hover {
+  button.btn-jac-compare:hover, button.btn-jac-compare:focus, button.btn-jac-compare:active {
     color: #9a2a03;
     background-color: #ffd4c5;
     border-color: #ffd4c5; }
@@ -793,19 +793,19 @@ button.btn-jac-price-update {
   background-color: #2a573c;
   border-color: #2a573c;
   color: #ffffff; }
-  button.btn-jac-price-update:hover {
+  button.btn-jac-price-update:hover, button.btn-jac-price-update:focus, button.btn-jac-price-update:active {
     color: #9a2a03;
     background-color: #6ec28f;
     border-color: #6ec28f; }
 
 .btn-jac-price-chart-alert {
   color: #4f4f4f; }
-  .btn-jac-price-chart-alert:hover {
+  .btn-jac-price-chart-alert:hover, .btn-jac-price-chart-alert:focus, .btn-jac-price-chart-alert:active {
     color: #c9c9c9; }
 
 button.btn-jac-link {
   color: #f05a23; }
-  button.btn-jac-link:hover {
+  button.btn-jac-link:hover, button.btn-jac-link:focus, button.btn-jac-link:active {
     color: #ffd4c5; }
 
 .btn-jac-disabled:disabled,
