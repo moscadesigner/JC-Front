@@ -817,4 +817,8 @@ button.btn-jac-link {
 button.btn, label.btn {
   border-radius: 0; }
 
+.h2-jac-title {
+  text-transform: uppercase;
+  color: #4f4f4f; }
+
 /*# sourceMappingURL=main.min.css.map */
