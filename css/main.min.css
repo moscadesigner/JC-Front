@@ -817,7 +817,7 @@ button.btn-jac-link {
 button.btn, label.btn {
   border-radius: 0; }
 
-.h2-jac-title {
+.h2-jac-title, .h1-jac-title, .h2-jac-title {
   text-transform: uppercase;
   color: #4f4f4f; }
 
