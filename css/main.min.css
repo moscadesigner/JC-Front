@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700,900");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -314,6 +315,7 @@ template {
  */
 html {
   font-family: sans-serif;
+  font-family: Montserrat;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
@@ -321,7 +323,11 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0; }
+  margin: 0;
+  font-family: "Montserrat", sans-serif !important; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif; }
 
 /* HTML5 display definitions
  * ========================================================================== */
@@ -771,6 +777,9 @@ input {
   visibility: visible !important;
   color: #ffffff; }
 
+.jac-breadcrumb {
+  border-radius: 0 !important; }
+
 button.btn-jac-default {
   background-color: #f05a23;
   border-color: #f05a23;
@@ -803,9 +812,9 @@ button.btn-jac-price-update {
   .btn-jac-price-chart-alert:hover, .btn-jac-price-chart-alert:focus, .btn-jac-price-chart-alert:active {
     color: #c9c9c9; }
 
-button.btn-jac-link {
+button.btn-jac-link, a.btn-jac-link {
   color: #f05a23; }
-  button.btn-jac-link:hover, button.btn-jac-link:focus, button.btn-jac-link:active {
+  button.btn-jac-link:hover, button.btn-jac-link:focus, button.btn-jac-link:active, a.btn-jac-link:hover, a.btn-jac-link:focus, a.btn-jac-link:active {
     color: #ffd4c5; }
 
 .btn-jac-disabled:disabled,
@@ -819,6 +828,9 @@ button.btn, label.btn {
 
 .h2-jac-title, .h1-jac-title, .h2-jac-title {
   text-transform: uppercase;
+  color: #4f4f4f; }
+
+.h3-jac-title, .h4-jac-title, .h5-jac-title, .h6-jac-title {
   color: #4f4f4f; }
 
 /*# sourceMappingURL=main.min.css.map */
